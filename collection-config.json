@@ -1,0 +1,13 @@
+[{
+  "name": "collection1",
+  "policy": "OR('devMSP.member')",
+  "requiredPeerCount": 0,
+  "maxPeerCount": 2,
+  "blockToLive": 3
+},{
+  "name": "collection2",
+  "policy": "OR('devMSP2.member')",
+  "requiredPeerCount": 0,
+  "maxPeerCount": 3,
+  "blockToLive": 0
+}]
